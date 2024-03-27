@@ -34,7 +34,7 @@ export default function ExtractImage() {
         return;
       }
 
-      const apiKey = "AIzaSyDXne2BVsboTVo7cAk3DQbI0KRLH7Me1uY";
+      const apiKey = "";
       const apiUrl = `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`;
 
       const base64ImageData = await FileSystem.readAsStringAsync(imageUrl, {
